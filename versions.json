@@ -1,0 +1,24 @@
+﻿{
+  "product": "Signal Desk 业务翻译桌",
+  "released_at": "2026-09-11",
+  "min_skill_for_pet": "0.1.0",
+  "skill_url": "https://github.com/chiangi28/signal-desk/releases/download/v0.1.0/signal-desk-skill-v0.1.0.zip",
+  "pet_url": "https://github.com/chiangi28/signal-desk/releases/download/v0.1.0/notey-pet-v0.1.0-win64.zip",
+  "skill_version": "0.1.0",
+  "pet_version": "0.1.0",
+  "skill_sha256": "1F6F5AF8352E8D91543FB2FE08301BA8B7B6438E020D30D006D0707F579716B5",
+  "pet_sha256": "B5C0682718B324DEA336AD1062BA2A24BEB0A80B612516B53C546DCE45C4094E",
+  "skill": {
+    "name": "Signal Desk",
+    "version": "0.1.0",
+    "url": "https://github.com/chiangi28/signal-desk/releases/download/v0.1.0/signal-desk-skill-v0.1.0.zip",
+    "sha256": "1F6F5AF8352E8D91543FB2FE08301BA8B7B6438E020D30D006D0707F579716B5"
+  },
+  "pet": {
+    "name": "Notey",
+    "version": "0.1.0",
+    "platform": "Windows 10/11 x64",
+    "url": "https://github.com/chiangi28/signal-desk/releases/download/v0.1.0/notey-pet-v0.1.0-win64.zip",
+    "sha256": "B5C0682718B324DEA336AD1062BA2A24BEB0A80B612516B53C546DCE45C4094E"
+  }
+}

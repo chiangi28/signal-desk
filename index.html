@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signal Desk 业务翻译桌</title>
+  <meta name="description" content="Download the Signal Desk WorkBuddy skill and Notey, the Windows desktop pet assistant.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav" aria-label="Top navigation">
+      <a class="brand" href="#top" aria-label="Signal Desk home">
+        <img src="assets/notey-logo.jpg" alt="" width="44" height="44">
+        <span><strong>Signal Desk</strong><small>业务翻译桌</small></span>
+      </a>
+      <div class="nav-actions">
+        <button class="lang active" data-lang="en" type="button">EN</button>
+        <button class="lang" data-lang="zh" type="button">中文</button>
+      </div>
+    </nav>
+
+    <section id="top" class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">WorkBuddy Skill + Notey desktop assistant</p>
+        <h1 data-i18n="title">Signal Desk / 业务翻译桌</h1>
+        <p class="lede" data-i18n="lede">One empty line. Five seats. One stamped week.</p>
+        <p class="sub" data-i18n="sub">Signal Desk is the skill. Notey is the Windows desktop pet that connects it and makes daily handoffs easier.</p>
+        <div class="downloads" aria-label="Downloads">
+          <a id="skillDownload" class="button primary" href="https://github.com/chiangi28/signal-desk/releases/download/v0.1.0/signal-desk-skill-v0.1.0.zip" download data-i18n="downloadSkill">Download Signal Desk Skill v0.1.0</a>
+          <a id="petDownload" class="button secondary" href="https://github.com/chiangi28/signal-desk/releases/download/v0.1.0/notey-pet-v0.1.0-win64.zip" download data-i18n="downloadPet">Download Notey v0.1.0 · Windows</a>
+        </div>
+        <p class="note" data-i18n="requires">Requires WorkBuddy desktop for the skill. Notey is Windows 10/11 only and is not code-signed.</p>
+      </div>
+      <div class="hero-card" aria-label="Signal Desk preview">
+        <img src="assets/signal-desk-hero.png" alt="Signal Desk pitch preview">
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section cards" aria-labelledby="intro-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="introKicker">What it is</p>
+        <h2 id="intro-title" data-i18n="introTitle">A desk for translation gaps, not people labels.</h2>
+      </div>
+      <article class="card"><span>01</span><h3 data-i18n="emptyTitle">The empty line</h3><p data-i18n="emptyBody">When workplace messages arrive vague or loaded, Signal Desk helps turn them into clear, human next steps.</p></article>
+      <article class="card"><span>02</span><h3 data-i18n="seatsTitle">Five seats</h3><p data-i18n="seatsBody">Fixture roles: employee Lin An, peer Zhou Kai, manager Chen Yue, mentor Liang Qiu, and HR Wu Lan. They are roles, not diagnoses.</p></article>
+      <article class="card"><span>03</span><h3 data-i18n="stampTitle">Stamp + inherit</h3><p data-i18n="stampBody">Humans still stamp the decision. Signal Desk keeps the week legible and carries forward the useful context.</p></article>
+    </section>
+
+    <section class="section split" aria-labelledby="guide-title">
+      <div>
+        <p class="eyebrow" data-i18n="guideKicker">Install and connect</p>
+        <h2 id="guide-title" data-i18n="guideTitle">Get Signal Desk running</h2>
+        <p data-i18n="guideIntro">The Skill works on its own. Add Notey when you want a desktop face, quick checks, and easier handoff to WorkBuddy.</p>
+      </div>
+      <ol class="steps">
+        <li><b data-i18n="s1Title">Install WorkBuddy</b><p data-i18n="s1Body">Use the official WorkBuddy desktop app. This site does not redistribute WorkBuddy.</p></li>
+        <li><b data-i18n="s2Title">Import Signal Desk Skill</b><p data-i18n="s2Body">Download the Skill zip, then use WorkBuddy's import / add skill pack flow.</p></li>
+        <li><b data-i18n="s3Title">Install Notey on Windows</b><p data-i18n="s3Body">Download the Notey zip, extract it, and run the installer or Run-Notey.bat.</p></li>
+        <li><b data-i18n="s4Title">Trust mcp.pet</b><p data-i18n="s4Body">In Notey, use Connect WorkBuddy / copy setup, then trust mcp.pet inside WorkBuddy. The site cannot skip that click.</p></li>
+        <li><b data-i18n="s5Title">Check and first knock</b><p data-i18n="s5Body">Run Check / ping. Start with the fixture flow; live inbox binding is separate.</p></li>
+      </ol>
+    </section>
+
+    <section class="section honesty" aria-labelledby="honesty-title">
+      <h2 id="honesty-title" data-i18n="honestyTitle">Honest boundaries</h2>
+      <div class="mini-grid">
+        <p data-i18n="h1">Signal Desk is a WorkBuddy skill. Notey is only the assistant desktop pet.</p>
+        <p data-i18n="h2">Demo fixture data is not live WeCom, Slack, or email data.</p>
+        <p data-i18n="h3">This is not a medical device, hotline, diagnosis tool, or emergency service.</p>
+        <p data-i18n="h4">Skill-only mode is valid: you can skip Notey and still use the skill in WorkBuddy.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Signal Desk 业务翻译桌</strong>
+      <p data-i18n="footerLine">Public hackathon build. Downloads are versioned and checksum-published.</p>
+    </div>
+    <div class="checksums" aria-label="Checksums">
+      <p><b>Skill SHA256</b><code id="skillHash">1F6F5AF8352E8D91543FB2FE08301BA8B7B6438E020D30D006D0707F579716B5</code></p>
+      <p><b>Notey SHA256</b><code id="petHash">B5C0682718B324DEA336AD1062BA2A24BEB0A80B612516B53C546DCE45C4094E</code></p>
+      <p><a href="versions.json">versions.json</a> · <a href="mailto:support@example.com">Contact</a></p>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
